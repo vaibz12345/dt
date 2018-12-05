@@ -1,0 +1,12 @@
+<p>
+  login works!
+</p>
+User Name :
+  <input type="text" id = "userName" required
+    [(ngModel)] = "model.userName" name = "userName">
+    <br/><br/>
+  Password :
+    <input type="text" id = "passWord" required
+      [(ngModel)] = "model.passWord" name = "passWord">
+      <br/><br/>
+      <input type="button" value="Show" (click)="Login()" />

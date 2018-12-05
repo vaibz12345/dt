@@ -1,0 +1,20 @@
+<p>
+  name works!
+</p>
+First Name
+  <input type="text" id = "firstName" required
+    [(ngModel)] = "model.firstName" name = "firstName">
+    <br/><br/>
+  Last Name
+    <input type="text" id = "lastName" required
+      [(ngModel)] = "model.lastName" name = "lastName">
+      <br/><br/>
+  Full Name
+      <input type="text" id = "fullName" required
+        [(ngModel)] = "model.fullName" name = "fullName">
+        <br/><br/>
+        <input type="button" value="Show" (click)="show()" />
+
+        <p>
+          Company is {{company}}
+        </p>
